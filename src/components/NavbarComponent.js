@@ -8,18 +8,18 @@ const NavbarComponent = () => {
   return(
     <div className='App'>
       <Navbar bg="dark" variant="dark"
-        sticky="top" expand="sm" collapseOnSelect>
-        {/* <Navbar.Brand>
-          <img src={logo} alt='Avatar' className='p-1' width="40px" height="40px" />
-        </Navbar.Brand> */}
-        <Container>
+        fixed="top" expand="sm" collapseOnSelect>
 
+        <Container>
+        <Navbar.Brand>
+          <img src={logo} alt='Avatar' className='p-1' width="40px" height="40px" />
+        </Navbar.Brand>
         <Navbar.Toggle className="coloring" />
         <Navbar.Collapse>
           <Nav>
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#project">Project</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#contact-me">Contact Me</Nav.Link>
             {/* <NavDropdown title="Products">
               <NavDropdown.Item href="#products/tea">Tea</NavDropdown.Item>
