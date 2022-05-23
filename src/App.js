@@ -19,17 +19,13 @@ const App = () => {
   return (
     <MemoryRouter>
       <NavbarComponent />
-      <div style={{backgroundColor: '#FAF9FF'}}>
-        <Container>
-          
+      <div>
 
               <Routes>
                 <Route path="/users" element={<Users/>} />
                 <Route path="/about" element={<About/>} />
                 <Route exact path="/" element={<Home/>} />
               </Routes>
-
-        </Container>
       </div>
     </MemoryRouter>
   )};

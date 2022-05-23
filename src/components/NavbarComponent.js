@@ -11,9 +11,6 @@ const NavbarComponent = () => {
         fixed="top" expand="sm" collapseOnSelect>
 
         <Container>
-        <Navbar.Brand>
-          <img src={logo} alt='Avatar' className='p-1' width="40px" height="40px" />
-        </Navbar.Brand>
         <Navbar.Toggle className="coloring" />
         <Navbar.Collapse>
           <Nav>
