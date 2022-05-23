@@ -1,22 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.387787ec.css",
-    "main.js": "/static/js/main.e058111c.js",
+    "main.css": "/static/css/main.eba2494b.css",
+    "main.js": "/static/js/main.f3b8e7d2.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/standingMan.jpg": "/static/media/standingMan.d5aced99ba9704815260.jpg",
-    "static/media/programmer2.jpg": "/static/media/programmer2.49a1a63a44579a5ddd88.jpg",
+    "static/media/standingMan1.jpg": "/static/media/standingMan1.9bd8e6f43c0b61d406a8.jpg",
+    "static/media/programmer3.jpg": "/static/media/programmer3.ec128b6242417dfc660f.jpg",
+    "static/media/reactSolarSystem.png": "/static/media/reactSolarSystem.01235f82da1be3b93e68.png",
+    "static/media/javaScriptsUnitTests.png": "/static/media/javaScriptsUnitTests.edee2390fa3612985573.png",
+    "static/media/frontendOnlineStore.png": "/static/media/frontendOnlineStore.785b6cd01e0a55e182d1.png",
     "static/media/toDoList.png": "/static/media/toDoList.21594d82db6c0effcda9.png",
+    "static/media/reactTunes.png": "/static/media/reactTunes.82764145b03f317af88f.png",
+    "static/media/reactTests.png": "/static/media/reactTests.a20e3f524ca8f4947fbf.png",
     "static/media/playgroundFunctions.png": "/static/media/playgroundFunctions.9ea0fe72218c9b10fa7c.png",
+    "static/media/es6HigherOrderFunctions.png": "/static/media/es6HigherOrderFunctions.2eb4cc38d5ecd6451f89.png",
     "static/media/PixelsArt.png": "/static/media/PixelsArt.1079b3d2b6dafb314ab8.png",
     "static/media/LessonsLearned.png": "/static/media/LessonsLearned.d9e6d1f13cfb549001e6.png",
+    "static/media/shoppingCartAPI.png": "/static/media/shoppingCartAPI.9b634b07d5b30f9fbbb6.png",
+    "static/media/basicForms.png": "/static/media/basicForms.bf0a5a2345bd36dad8eb.png",
+    "static/media/reactSuperTrunfo.png": "/static/media/reactSuperTrunfo.e7b442bf228fc2e3011d.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.387787ec.css.map": "/static/css/main.387787ec.css.map",
-    "main.e058111c.js.map": "/static/js/main.e058111c.js.map",
+    "main.eba2494b.css.map": "/static/css/main.eba2494b.css.map",
+    "main.f3b8e7d2.js.map": "/static/js/main.f3b8e7d2.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.387787ec.css",
-    "static/js/main.e058111c.js"
+    "static/css/main.eba2494b.css",
+    "static/js/main.f3b8e7d2.js"
   ]
 }

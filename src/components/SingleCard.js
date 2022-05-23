@@ -14,7 +14,13 @@ export const SingleCard = ({ cardImage, cardTitle, cardText, cardLink }) => {
           </Card.Text>
           <Nav.Item>
             <Nav.Link href={ cardLink }>
-              <Button variant="primary">Go to GitHub</Button>
+              <Button
+                variant="primary"
+                // editing button
+                // className='d-flex flex-end'
+              >
+                Go to GitHub
+              </Button>
             </Nav.Link>
           </Nav.Item>
         </Card.Body>

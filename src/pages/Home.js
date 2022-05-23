@@ -1,20 +1,20 @@
 import React from 'react';
 import CardsContainer from '../components/CardsContainer';
-import programmer from '../imgs/programmer2.jpg';
-import standingMan from '../imgs/standingMan.jpg';
+import programmer from '../imgs/programmer3.jpg';
+import standingMan from '../imgs/standingMan1.jpg';
 import { Image } from 'react-bootstrap';
 
 const Home = () => {
   return (
-    <div>
-      <div id="home" style={{ padding: '150px 0px 100px 0px' }}>
+    <div style={{backgroundColor: '#FAF9FF'}}>
+      <div id="home" className='paddingClass'>
         <div className="d-flex flex-wrap justify-content-center">
-          <div style={{ maxWidth: '50%', minWidth: '400px' }}>
+          <div style={{ width: '50%', minWidth: '350px', maxWidth: '550px' }}>
             <h4 className="pt-1 font-weight-light" style={{ fontSize: '20px' }}>
               Filipe Braga
             </h4>
             <h1 className="mb-5" style={{ fontSize: '50px' }}>
-              Front-end Developer, Fullstack soon...
+              Front-end Developer, soon Fullstack...
             </h1>
             <h4>
               Software Developer Front-end and graduate Engineer. Passionate
@@ -25,7 +25,9 @@ const Home = () => {
 
           <Image
             src={programmer}
+            height="322"
             width="450px"
+            
             alt="Programmer"
             className="p-1 marginInSmall"
           />
@@ -45,7 +47,7 @@ const Home = () => {
             className="p-1 hiddenInSmall"
           />
         </div>
-        <div style={{ width: '50%', minWidth: '400px' }}>
+        <div style={{ width: '40%', minWidth: '350px' }}>
           <h1>Skills</h1>
 
           <h3 className="pt-3">Fullstack Student at TRYBE®</h3>
