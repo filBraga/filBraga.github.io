@@ -47,7 +47,7 @@ const Home = () => {
             className="p-1 hiddenInSmall"
           />
         </div>
-        <div style={{ width: '40%', minWidth: '350px' }}>
+        <div style={{ width: '40%', minWidth: '350px', maxWidth: '550px' }}>
           <h1>Skills</h1>
 
           <h3 className="pt-3">Fullstack Student at TRYBE®</h3>
@@ -64,11 +64,14 @@ const Home = () => {
             Router; React Testing Library; Redux; Context API; React Hooks;
           </h6>
           <h5 className="pt-3">Back-end</h5>
-          <h6>Docker; SQL; Node.js;</h6>
+          <h6>Docker; SQL; Node.js; Rest and Restful; ORM and Authentication; Deployment;</h6>
         </div>
         <div>
         </div>
       </div>
+
+
+
       <br className="mx-auto my-5 " />
       <div id="projects">
         <div className="my-3" style={{ textAlign: 'center', padding:'50px 0px 50px 0px' }}>
@@ -76,8 +79,36 @@ const Home = () => {
             <h1>Projects</h1>
           </div>
         </div>
-        <CardsContainer />
+        <div>
+          <CardsContainer />
+        </div>
       </div>
+
+
+
+      <br className="mx-auto my-5 " />
+      <div id="contact">
+        <div className="my-3" style={{ textAlign: 'center', padding:'50px 0px 50px 0px' }}>
+          <div>
+            <h1>Contact Me</h1>
+            <br />
+            <br />
+          </div>
+          <a href='https://linkedin.com/in/filbraga/'>
+            linkedin.com/in/filbraga/
+          </a>
+          <br />
+          <a href='https://github.com/filBraga'>
+            https://github.com/filBraga
+          </a>
+        </div>
+        <div style={{ display:'flex', 
+          justifyContent:'center', alignItems: 'center' }}>
+        </div>
+      </div>
+
+
+
     </div>
   );
 };

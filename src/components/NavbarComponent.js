@@ -17,7 +17,7 @@ const NavbarComponent = () => {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact-me">Contact Me</Nav.Link>
+            <Nav.Link href="#contact">Contact Me</Nav.Link>
             {/* <NavDropdown title="Products">
               <NavDropdown.Item href="#products/tea">Tea</NavDropdown.Item>
               <NavDropdown.Item href="#products/coffee">Coffee</NavDropdown.Item>

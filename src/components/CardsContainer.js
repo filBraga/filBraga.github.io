@@ -1,8 +1,8 @@
 import '../App.css';
 
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import Nav from 'react-bootstrap/Nav';
+// import Button from 'react-bootstrap/Button';
+// import Card from 'react-bootstrap/Card';
+// import Nav from 'react-bootstrap/Nav';
 
 import { SingleCard } from './SingleCard';
 
@@ -19,6 +19,16 @@ import reactSuperTrunfo from '../imgs/cards/reactSuperTrunfo.png'
 import reactTunes from '../imgs/cards/reactTunes.png'
 import frontendOnlineStore from '../imgs/cards/frontendOnlineStore.png'
 import reactTests from '../imgs/cards/reactTests.png'
+import reactWallet from '../imgs/cards/reactWallet.png'
+import triviaGame from '../imgs/cards/triviaGame.png'
+import starWarsContextApiHook from '../imgs/cards/starWarsContextApiHook.png'
+import recipeApp from '../imgs/cards/recipeApp.png'
+import dockerToDoList from '../imgs/cards/dockerToDoList.png'
+import northwindSqlQueries from '../imgs/cards/northwindSqlQueries.png'
+import tableToSql from '../imgs/cards/tableToSql.png'
+import usersApiCrud from '../imgs/cards/usersApiCrud.png'
+import storeApiCrud from '../imgs/cards/storeApiCrud.png'
+import blogApiCrud from '../imgs/cards/blogApiCrud.png'
 
 const CardsContainers = () => {
   return(
@@ -31,6 +41,76 @@ const CardsContainers = () => {
         cardText='BBBBB CCCCC DDDDD EEEEE FFFF'
         cardLink='https://github.com/filBraga/AAAAAAAAAAAAA'
       /> */}
+
+      <SingleCard
+        cardImage={ blogApiCrud }
+        cardTitle='Blog API CRUD'
+        cardText='RESTFUL API using Node and Express with JWT'
+        cardLink='https://github.com/filBraga/blogApiCrud'
+      />
+
+      <SingleCard
+        cardImage={ storeApiCrud }
+        cardTitle='Store API CRUD'
+        cardText='RESTFUL API using Node and Express with Model, Service, Controller layers'
+        cardLink='https://github.com/filBraga/storeApiCrud'
+      />
+
+      <SingleCard
+        cardImage={ usersApiCrud }
+        cardTitle='Users API CRUD'
+        cardText='RESTFUL API using Node and Express with JOI validation.'
+        cardLink='https://github.com/filBraga/usersApiCrud'
+      />
+
+      <SingleCard
+        cardImage={ tableToSql }
+        cardTitle='Table To SQL'
+        cardText='Set of SQL for normalizing an excel table, creating, populating and manipulating in local database.'
+        cardLink='https://github.com/filBraga/tableToSql'
+      />
+
+      <SingleCard
+        cardImage={ northwindSqlQueries }
+        cardTitle='Northwind SQL Database'
+        cardText='Set of SQL code for manipulating data from a Norhwind Database'
+        cardLink='https://github.com/filBraga/northwindSqlQueries'
+      />
+
+      <SingleCard
+        cardImage={ dockerToDoList }
+        cardTitle='Docker To Do List'
+        cardText='Create a Docker Container for a frontend, backend and tests application'
+        cardLink='https://github.com/filBraga/dockerToDoList'
+      />
+
+      <SingleCard
+        cardImage={ recipeApp }
+        cardTitle='Recipe App'
+        cardText='Recipe app, using React: Hooks and Context API! Possible to see, search, filter, favorite and follow the progress of recipes and drinks!'
+        cardLink='https://github.com/filBraga/recipeApp'
+      />
+
+      <SingleCard
+        cardImage={ starWarsContextApiHook }
+        cardTitle='Context Api and Hook Search'
+        cardText='A filter list of planets from the Star Wars using Context API and Hooks to control global states.'
+        cardLink='https://github.com/filBraga/starWarsContextApiHook'
+      />
+
+      <SingleCard
+        cardImage={ triviaGame }
+        cardTitle='React Game'
+        cardText='Trivia app where some questions are asked about many subjects. React and Redux used.'
+        cardLink='https://github.com/filBraga/triviaGame'
+      />
+
+      <SingleCard
+        cardImage={ reactWallet }
+        cardTitle='React Wallet'
+        cardText='Wallet App in React with Redux store, reducer, action and dispatchers'
+        cardLink='https://github.com/filBraga/reactWallet'
+      />
 
       <SingleCard
         cardImage={ reactTests }
