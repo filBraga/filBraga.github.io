@@ -13,18 +13,29 @@ code {
     monospace;
 }
 
+/* Div shadows */
 #home, #skills, #projects {
-  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;;
+}
+
+.bodyText50 {
+  width: 50%;
+  min-width: 350px;
+  max-width: 550px;
 }
 
 .paddingClass {
-  padding: 250px 5px 200px;
+  padding: 300px 20px 300px;
+}
+
+.paddingClass2 {
+  padding: 75px 20px 75px;
 }
 
 /* For width 400px and smaller: */
-@media only screen and (max-width: 924px) {
-  .paddingClass {
-    padding: 75px 5px 50px
+@media only screen and (max-width: 954px) {
+  .paddingClass, .paddingClass2 {
+    padding: 75px 20px 50px
   }
   .hiddenInSmall {
     display: none;

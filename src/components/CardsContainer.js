@@ -33,7 +33,10 @@ import blogApiCrud from '../imgs/cards/blogApiCrud.png'
 const CardsContainers = () => {
   return(
 
-    <div className="d-flex flex-wrap justify-content-center">
+    <div 
+    className="d-flex flex-wrap justify-content-center"
+    style={{width: '1300px', marginLeft: 'auto', marginRight: 'auto'}}
+    >
 
       {/* <SingleCard
         cardImage={ IMAGEEEEEE }
