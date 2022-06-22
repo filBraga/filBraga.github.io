@@ -35,7 +35,7 @@ const CardsContainers = () => {
 
     <div 
     className="d-flex flex-wrap justify-content-center"
-    style={{width: '1300px', marginLeft: 'auto', marginRight: 'auto'}}
+    style={{maxWidth: '1300px', marginLeft: 'auto', marginRight: 'auto'}}
     >
 
       {/* <SingleCard
